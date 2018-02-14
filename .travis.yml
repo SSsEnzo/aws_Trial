@@ -1,1 +1,10 @@
 language: node_js
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: "AKIAIVQWUF3QWFL666YA"
+  secret_access_key:
+    secure: "htemJxLGZkgxWGiUlHibv3AgvQXIrszthyU/neVhR92oRy7xr9eUj4aU0XmH7phyGfv6IBflbSAyAN1oi+wC15VaY6gEZyuToQvhzlrTbDgCoMp+8L8YJVEeAUmat4nKKl5ACbmCMyOiGNadmhlZ4yC0mpt+UmjdZjLon/enbQ4QU9WnJci6Jg2+xDnkoDgGtQTjJKq9HzcwTaPeY0mZ+QfuMyW1vdqavHlyBIkeQEqLulGFMVr2R6vVUwBkC47/F4tli4elQJOHzw2lGFxw1WUv97uFNVO7Rp0/pEZvw7tpqz36+wh+Nsdlke34Zn07vQ2Y8JWVonWNeHCtEUJuJ86UbstsMSQh39LgD8TOKpICLsnM8oFaDaJQ3ivSEOih2v+gZfzuVYijw54XDa+HwJLjDwdmv3rzyfDEOKXUZvTisY1HHi6jhhTzSfSw09OOO+VO8dMvYLvF3ElyEdZlIzzbyDuejc/HoeX+xZpUGU0/d2D7SiWLcSPOBnxWUAljJ8TBYpq0RKesefEcVfJD+WUORTa0tD0CQPruR6H1WeeOkZrhTGPig32re6a0hAdNvFgs9E9VXIzad2bP0ux3O7A0rvSOlFgxSJCla4c/HSnnxAFGU89cmROVHtXliwFQclqY0x+l6etJtUPB8rZVIm+FFcZ9q1oeH6ZHMZ+z/Vs="
+  region: "ap-northeast-2"  
+  app: "aws_test_project1"
+  env: "awsTestProject1-env"
+  bucket_name: "elasticbeanstalk-ap-northeast-2-321827072450"
